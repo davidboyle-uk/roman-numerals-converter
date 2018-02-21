@@ -1,0 +1,26 @@
+<phpunit
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/3.7/phpunit.xsd"
+    bootstrap="vendor/autoload.php"
+    colors="true">
+
+  <testsuites>
+    <testsuite name="package-golf tests">
+      <directory>test</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist>
+      <directory suffix=".php">src</directory>
+        <exclude>
+            <directory>vendor</directory>
+        </exclude>
+    </whitelist>
+  </filter>
+
+  <php>
+    <ini name="error_reporting" value="32767"/>
+  </php>
+
+</phpunit>
