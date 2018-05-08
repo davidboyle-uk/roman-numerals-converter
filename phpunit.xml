@@ -5,7 +5,7 @@
     colors="true">
 
   <testsuites>
-    <testsuite name="package-golf tests">
+    <testsuite name="roman-numerals tests">
       <directory>test</directory>
     </testsuite>
   </testsuites>
