@@ -1,5 +1,4 @@
-Roman Numerals
-==============
+# Roman Numerals
 
 PHP class which converts both integers to roman numerals, and roman numerals to integers
 
@@ -12,7 +11,7 @@ PHP class which converts both integers to roman numerals, and roman numerals to 
 # Approach
 
 1. Keep things simple, no autoloader required
-1. Write sufficient unit tests wihtout spending too much time
+1. Write sufficient unit tests without spending too much time
 1. Validation of input parameters is handled by dedicated methods rather than within the main parse / generate functions
 
 ## Running tests
